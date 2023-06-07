@@ -4,6 +4,7 @@ int actual_sqrt_recursion(int n, int i);
 
 /**
  * _sqrt_recursion - square root of n
+ * @n : square root
  * Return: square root result
  */
 
@@ -16,16 +17,18 @@ int _sqrt_recursion(int n)
 
 /**
  * actual_sqrt_recursion - recursive function
+ * @n :  square root
+ * @m : power
  * Return: square root result
  */
 
 
-int actual_sqrt_recursion(int n, int i)
+int actual_sqrt_recursion(int n, int m)
 {
-	if (i * i > n)
+	if (m * m > n)
 		return (-1);
-	if (i * i == n)
-		return (i);
-	return (actual_sqrt_recursion(n, i + 1));
+	if (m * m == n)
+		return (m);
+	return (actual_sqrt_recursion(n, m + 1));
 }
 
