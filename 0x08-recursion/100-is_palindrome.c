@@ -6,7 +6,7 @@ int _strlen_recursion(char *s);
 /**
  * is_palindrome - shows if  string is palindrome
  * @s: main string
- * Return: 1 on success, 0 on failure 
+ * Return: 1 on success, 0 on failure
  */
 int is_palindrome(char *s)
 {
@@ -39,7 +39,7 @@ int check_pal(char *s, int n, int m)
 {
 	if (*(s + n) != *(s + m - 1))
 		return (0);
-	if (n >= m )
+	if (n >= m)
 		return (1);
 	return (check_pal(s, n + 1, m - 1));
 }
