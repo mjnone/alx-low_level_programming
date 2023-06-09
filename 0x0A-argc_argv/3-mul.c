@@ -62,7 +62,7 @@ int main(int argc, char *argv[])
 	}
 
 	n1 = _atoi(argv[1]);
-	n2 = _atoi(argv[2])
+	n2 = _atoi(argv[2]);
 	resultat = n1 * n2;
 	printf("%d\n", resultat);
 	return (0);
