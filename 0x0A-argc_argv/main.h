@@ -2,7 +2,7 @@
 #define MAIN_H
 
 int _putchar(char x);
-int _atoi(char y);
+int _atoi(char *s);
 
 #endif
 
