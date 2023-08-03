@@ -19,7 +19,7 @@ int _sqrt_recursion(int n)
 /**
  * actual_sqrt_recursion - recursion pour trouver les racine carree
  * @n: l'input
- * @i: 'interateur
+ * @m: l'interateur
  * Return: le resultat
  */
 
